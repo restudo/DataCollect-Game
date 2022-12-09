@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - void
+  - Box
+  - Button
+  - laser
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - eye
+  - Water
+  - UI
+  - player
+  - ground
+  - enemy
+  - edges
+  - button
+  - data
+  - light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: backround
+    uniqueID: 111703391
+    locked: 0
+  - name: decor
+    uniqueID: 3917829209
+    locked: 0
+  - name: platform
+    uniqueID: 2436710207
+    locked: 0
+  - name: foreground
+    uniqueID: 635567269
+    locked: 0
+  - name: player
+    uniqueID: 2779996419
+    locked: 0

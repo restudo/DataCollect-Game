@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8541244282320113681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8541244282320113683}
+  - component: {fileID: 8541244282320113682}
+  m_Layer: 0
+  m_Name: audioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8541244282320113683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8541244282320113681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 358.01428, y: 184.59323, z: 2.0919387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8541244282320113682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8541244282320113681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f336710cb87023142a2890a8c2cab8c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: mainMenu
+    clip: {fileID: 8300000, guid: e6a7d99ac7a148e488b238a59fc2e8dd, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: inGame
+    clip: {fileID: 8300000, guid: 566102e2d14527a49ab8d03dd11b6e8f, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: damaged
+    clip: {fileID: 8300000, guid: 2a52f28eba26fac43a884928574dc5b5, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: gameOver
+    clip: {fileID: 8300000, guid: 8cded0cc4bffe1d489527bb9185cc1ab, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: getData
+    clip: {fileID: 8300000, guid: 42ac718adbf9c1b4dafe339e7de13368, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 9c1f409b6dba9424699595ddf7420c89, type: 3}
+    volume: 0.43
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: shoot
+    clip: {fileID: 8300000, guid: 587b49239533d9044a37c830e9fb18d1, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: dash
+    clip: {fileID: 8300000, guid: c58d84dd32c218c47bdd2927cccecc7a, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: levelDone
+    clip: {fileID: 8300000, guid: e78deb6c0d15f5346ac8b65b52784943, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: dropData
+    clip: {fileID: 8300000, guid: 16b1550213672f5418c5f3fd165c0d8e, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: enemyDead
+    clip: {fileID: 8300000, guid: a928ebbe01b1575428f923bb1f956e38, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: box
+    clip: {fileID: 8300000, guid: a109b045a7cd3a748b9f53210fcd121f, type: 3}
+    volume: 1
+    pitch: 1
+    spatial: 0
+    loop: 1
+    source: {fileID: 0}

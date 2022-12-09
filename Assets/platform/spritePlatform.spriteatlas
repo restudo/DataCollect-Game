@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spritePlatform
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 64d5123000835914da8f24a39bd68d15, type: 3}
+    - {fileID: 2800000, guid: 09abaada4cde58e428aa06af745e0955, type: 3}
+    - {fileID: 2800000, guid: 5b5e254a0fe1ad442bdf87b34b8bddc4, type: 3}
+    - {fileID: 2800000, guid: f499e0bafe6d37846a07883b49496839, type: 3}
+    - {fileID: 2800000, guid: 1d3f4150e0194224ea9cd3ea3c3a8d98, type: 3}
+    - {fileID: 2800000, guid: a65ac3890c0a09d4faf5e06b5970b2f7, type: 3}
+    - {fileID: 2800000, guid: 0e23b357b3e9f7249a112597615308aa, type: 3}
+    - {fileID: 2800000, guid: 62b2c78b31322d1469eb290ccb7b48b0, type: 3}
+    - {fileID: 2800000, guid: 981823d8f563e5345ad2c3a2d851d001, type: 3}
+    - {fileID: 2800000, guid: 5ce44761cbe9b5e4cb124bda9f4977ae, type: 3}
+    - {fileID: 2800000, guid: 6f352690bb012cd45bf9a716edff715e, type: 3}
+    - {fileID: 2800000, guid: 5ad08e13051705e4eb66f7576182200a, type: 3}
+    - {fileID: 2800000, guid: 24094947181c71c4cb299961a6b0d5bd, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 64d5123000835914da8f24a39bd68d15, type: 3}
+  - {fileID: 21300000, guid: 1d3f4150e0194224ea9cd3ea3c3a8d98, type: 3}
+  - {fileID: 21300000, guid: 6f352690bb012cd45bf9a716edff715e, type: 3}
+  - {fileID: 21300000, guid: 5ce44761cbe9b5e4cb124bda9f4977ae, type: 3}
+  - {fileID: 21300000, guid: 5ad08e13051705e4eb66f7576182200a, type: 3}
+  - {fileID: 21300000, guid: 24094947181c71c4cb299961a6b0d5bd, type: 3}
+  - {fileID: 21300000, guid: 0e23b357b3e9f7249a112597615308aa, type: 3}
+  - {fileID: 21300000, guid: 981823d8f563e5345ad2c3a2d851d001, type: 3}
+  - {fileID: 21300000, guid: a65ac3890c0a09d4faf5e06b5970b2f7, type: 3}
+  - {fileID: 21300000, guid: 5b5e254a0fe1ad442bdf87b34b8bddc4, type: 3}
+  - {fileID: 21300000, guid: f499e0bafe6d37846a07883b49496839, type: 3}
+  - {fileID: 21300000, guid: 09abaada4cde58e428aa06af745e0955, type: 3}
+  - {fileID: 21300000, guid: 62b2c78b31322d1469eb290ccb7b48b0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tile-Blank
+  - Tile-Corner In
+  - Tile_Corner Out bawah kanan
+  - Tile_Corner Out atas kiri
+  - Tile_Corner Out bawah kiri
+  - Tile_Corner Out
+  - Tile-plain kanan
+  - Tile-plain
+  - Tile-plain bawah
+  - Tile-Corner In bawah kanan
+  - Tile-Corner In bawah kiri
+  - Tile-Corner In atas kiri
+  - Tile-plain kiri
+  m_RenderDataMap: {}
+  m_Tag: spritePlatform
+  m_IsVariant: 0
